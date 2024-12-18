@@ -69,7 +69,7 @@ namespace ChallengesWithTestsMark8
             // Methods Body
             if (nameOfPerson == "")
                 // Checks if the name is empty
-                return "Hello";
+                return "Hello!";
                 // if the name is empty, returns a generic greetin g
             
             else
@@ -85,9 +85,9 @@ namespace ChallengesWithTestsMark8
             // public : access modifier, this also mean that only accessible within its own class
             // string : return type, its purpose is to indicate what the method will return.
             // GetHey() : is the methods name implementing PascalCase, its naming convention for methods.
-            
-        {
-            return "Hey!";
+             
+                            {
+               return "HEY!";
             // return :return keyword signals that the method should stop executing and return the specified value.
             // "Hey!"  will be sent back to the caller.
 ;
